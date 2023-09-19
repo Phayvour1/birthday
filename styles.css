@@ -3,7 +3,10 @@
 .body {
     overflow: hidden;
     font-family: 'Roboto', serif;
-    background:white;
+    background-image: url('images/12059543_4871703.jpg');
+  background-size: cover; /* Adjust this to control how the image is displayed */
+  background-repeat: no-repeat;
+  background-position: center center;
   }
 
 .card {

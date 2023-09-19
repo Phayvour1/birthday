@@ -144,3 +144,9 @@ window.addEventListener("load", () => {
 window.addEventListener("click", () => {
   removeBalloons();
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var audio = document.getElementById('background-audio');
+    audio.play(); // Ensure you have the correct audio element ID
+  });
+  
